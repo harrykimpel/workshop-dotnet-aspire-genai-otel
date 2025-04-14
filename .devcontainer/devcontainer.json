@@ -1,9 +1,14 @@
 {
     "name": ".NET in Codespaces",
-    "image": "mcr.microsoft.com/dotnet/sdk:9.0",
+    //"image": "mcr.microsoft.com/dotnet/sdk:9.0",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:9.0-bookworm",
+    "postCreateCommand": "dotnet restore",
+    "onCreateCommand": "dotnet new install Aspire.ProjectTemplates::9.2.0 --force",
+    "postStartCommand": "dotnet dev-certs https --trust",
     "customizations": {
         "vscode": {
             "extensions": [
+                "ms-dotnettools.csdevkit",
                 "GitHub.copilot",
                 "GitHub.vscode-github-actions",
                 "CodeStream.codestream"
