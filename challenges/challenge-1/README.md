@@ -40,18 +40,30 @@ Play around with the app and familiarize yourself with the user interface and al
 
 Back in the .NET Aspire developer dashboard, we can then explore other areas of this dashboard:
 
-- Console logs
+### Console logs
 
-    ![.NET Aspire dashboard console logs](./assets/dotnet-aspire-dashboard-console-logs.png)
+![.NET Aspire dashboard console logs](./assets/dotnet-aspire-dashboard-console-logs.png)
 
-- Structured logs
+### Structured logs
 
-    ![.NET Aspire dashboard structured logs](./assets/dotnet-aspire-dashboard-structured-logs.png)
+![.NET Aspire dashboard structured logs](./assets/dotnet-aspire-dashboard-structured-logs.png)
 
-- Traces
+### Traces
+
+- Traces overview
 
     ![.NET Aspire dashboard traces](./assets/dotnet-aspire-dashboard-traces.png)
 
-- Metrics
+- Trace details
 
-    ![.NET Aspire dashboard metrics](./assets/dotnet-aspire-dashboard-metrics.png)
+    ![.NET Aspire dashboard tracedetails](./assets/dotnet-aspire-dashboard-trace-details.png)
+
+### Metrics
+
+![.NET Aspire dashboard metrics](./assets/dotnet-aspire-dashboard-metrics.png)
+
+## OpenTelemetry
+
+All of these telemetry signals are captured by default using the default configuration of OpenTelemetry in .NET Aspire.
+
+These defaults are configured in the `app.ServiceDefaults` project. Have a look into the [Extensions.cs](./app.ServiceDefaults/Extensions.cs) file. Line 20 calls a method `ConfigureOpenTelemetry` on the application builder. The different signals for logs, metrics and traces are then configured in lines 46-66. These telemetry signals are then sent into the .NET Aspire OpenTelemetry collector where these are captured and then visualized.
