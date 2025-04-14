@@ -1,0 +1,12 @@
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/bin/Debug/net9.0/app.ServiceDefaults.deps.json
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/bin/Debug/net9.0/app.ServiceDefaults.dll
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/bin/Debug/net9.0/app.ServiceDefaults.pdb
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/app.ServiceDefaults.csproj.AssemblyReference.cache
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/app.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/app.ServiceDefaults.AssemblyInfoInputs.cache
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/app.ServiceDefaults.AssemblyInfo.cs
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/app.ServiceDefaults.csproj.CoreCompileInputs.cache
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/app.ServiceDefaults.dll
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/refint/app.ServiceDefaults.dll
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/app.ServiceDefaults.pdb
+/Users/hkimpel/Library/CloudStorage/OneDrive-bluecountysoftwaresolutions/job/new relic/DevRel/projects/dotnet/aspire/fluentaspire-starter/app.ServiceDefaults/obj/Debug/net9.0/ref/app.ServiceDefaults.dll
