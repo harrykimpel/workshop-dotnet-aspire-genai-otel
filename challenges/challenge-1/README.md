@@ -1,6 +1,6 @@
 # Challenge 1
 
-In this initial challenge we will first get the .NET Aspire sample application up and running.
+In this initial challenge we will get the .NET Aspire sample application up and running.
 
 Follow the steps below to run the sample application:
 

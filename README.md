@@ -36,4 +36,4 @@ The GitHub codespace environment basically consists of a VS Code instance with:
 
 As part of this workshop, we will go through a couple different challenges each focusing on various aspects.
 
-Let's get started with the first challenge. For this we jump into [challenges/challenge-1](./challenges/challenge-1/README.md) folder.
+Let's get started with the first challenge. For this we jump into [first challenge](./challenges/challenge-1/README.md) folder.
