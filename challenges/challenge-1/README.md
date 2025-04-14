@@ -4,14 +4,34 @@ In this initial challenge we will first get the .NET Aspire sample application u
 
 Follow the steps below to run the sample application:
 
-1. change into challenge 1 folder
+1. Open the `Terminal` tab in the bottom panel
 
-```bash,run
-cd challenges/challenge-1
-```
+2. Change folder into `challenge-1` folder
 
-2. run the sample application
+    ```bash
+    cd challenges/challenge-1
+    ```
 
-```bash,run
- dotnet run --project app.AppHost/app.AppHost.csproj
-```
+3. Run the sample application
+
+    ```bash
+    dotnet run --project app.AppHost/app.AppHost.csproj
+    ```
+
+Once the application is ready, you should see some output like this.
+
+![.NET Aspire terminal output](./assets/dotnet-run-aspire-terminal-output.png)
+
+In order to get to the .NET Aspire developer dashboard, click into your `Login to the dashboard at ...` link.
+
+![.NET Aspire dashboard link](./assets/dotnet-run-aspire-dashboard-link.png)
+
+The .NET Aspire dashboard then shows you an overview of all the resources involved in the sample aplication.
+
+![.NET Aspire resources](./assets/dotnet-aspire-dashboard-resources.png)
+
+Clicking on the URL for the webfrontend, brings you into the web frontend of our sample application.
+
+![Web Frontend](./assets/web-frontend.png)
+
+Play around with the app and familiarize yourself with the user interface and all of its components.
