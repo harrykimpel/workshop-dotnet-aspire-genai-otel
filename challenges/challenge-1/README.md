@@ -30,8 +30,28 @@ The .NET Aspire dashboard then shows you an overview of all the resources involv
 
 ![.NET Aspire resources](./assets/dotnet-aspire-dashboard-resources.png)
 
-Clicking on the URL for the webfrontend, brings you into the web frontend of our sample application.
+Clicking on the URL for the `webfrontend`, brings you into the actual web frontend of our sample application.
 
 ![Web Frontend](./assets/web-frontend.png)
 
-Play around with the app and familiarize yourself with the user interface and all of its components.
+Play around with the app and familiarize yourself with the user interface and all of its components. I encourage you to navigate to the `Counter` and `Weather` components.
+
+## .NET Aspire developer dashboard
+
+Back in the .NET Aspire developer dashboard, we can then explore other areas of this dashboard:
+
+- Console logs
+
+    ![.NET Aspire dashboard console logs](./assets/dotnet-aspire-dashboard-console-logs.png)
+
+- Structured logs
+
+    ![.NET Aspire dashboard structured logs](./assets/dotnet-aspire-dashboard-structured-logs.png)
+
+- Traces
+
+    ![.NET Aspire dashboard traces](./assets/dotnet-aspire-dashboard-traces.png)
+
+- Metrics
+
+    ![.NET Aspire dashboard metrics](./assets/dotnet-aspire-dashboard-metrics.png)
