@@ -67,3 +67,7 @@ Back in the .NET Aspire developer dashboard, we can then explore other areas of 
 All of these telemetry signals are captured by default using the default configuration of OpenTelemetry in .NET Aspire.
 
 These defaults are configured in the `app.ServiceDefaults` project. Have a look into the [Extensions.cs](./app.ServiceDefaults/Extensions.cs) file. Line 20 calls a method `ConfigureOpenTelemetry` on the application builder. The different signals for logs, metrics and traces are then configured in lines 46-66. These telemetry signals are then sent into the .NET Aspire OpenTelemetry collector where these are captured and then visualized.
+
+## Finally
+
+When you are finished exploring, let's head to the [next challenge](../challenge-2/README.md).
