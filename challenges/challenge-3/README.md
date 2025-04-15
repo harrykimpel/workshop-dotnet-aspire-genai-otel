@@ -12,4 +12,4 @@ Follow the steps below:
     cd ../challenge-3/aspire
     ```
 
-3. In the `Explorer` on the lft side, open [challenges/challenge-2/app.AppHost/Program.cs](app.AppHost/Program.cs)
+3. In the bottom panel, click on the `+` sign and create another `bash` terminal window.
