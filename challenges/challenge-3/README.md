@@ -54,6 +54,12 @@ In the second terminal window, execute the below commands:
 export NEW_RELIC_LICENSE_KEY=YOUR_NEW_RELIC_LICENSE_KEY
 ```
 
+We also need to define our `GITHUB_TOKEN` (PAT) in order to make requests to the `https://models.inference.ai.azure.com` service. Create your PAT token by following instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+
+```bash
+export GITHUB_TOKEN=YOUR_GITHUB_TOKEN
+```
+
 Let's execute the application.
 
 ```bash
@@ -72,3 +78,5 @@ Click on the dashboard link and navigate to the `webfrontend` service.
 Here, you'll notice a new navigation item called `Gen-AI`.
 
 ![web-frontend gen-ai](./assets/web-frontend-gen-ai.png)
+
+Here, you are able to enter some prompts and receive responses from the AI/LLM model visualized in the user interface.
