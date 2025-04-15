@@ -13,3 +13,5 @@ Follow the steps below:
     ```
 
 3. In the bottom panel, click on the `+` sign and create another `bash` terminal window.
+
+    ![GitHub Codespace new terminal](./assets/gh-codespace-new-terminal.png)

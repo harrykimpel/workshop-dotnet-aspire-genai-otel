@@ -8,6 +8,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.ServiceDefaults", "app.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.ApiService", "app.ApiService\app.ApiService.csproj", "{3F854F28-AA0B-4315-93B0-A4848666DA3B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.GenAIApiService", "app.GenAIApiService\app.GenAIApiService.csproj", "{3F854F28-AA0B-4315-93B0-A4848666DA3B}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app.Web", "app.Web\app.Web.csproj", "{F66AB522-4B5A-46FF-864E-CBC436C7402C}"
 EndProject
 Global

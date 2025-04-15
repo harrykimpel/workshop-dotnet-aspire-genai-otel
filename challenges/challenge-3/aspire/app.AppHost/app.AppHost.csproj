@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\app.ApiService\app.ApiService.csproj" />
+    <ProjectReference Include="..\app.GenAIApiService\app.GenAIApiService.csproj" />
     <ProjectReference Include="..\app.Web\app.Web.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,43 @@
+﻿@page "/genai"
+@rendermode InteractiveServer
+@attribute [OutputCache(Duration = 5)]
+
+@inject GenAIAPIClient GenAIApi
+
+<PageTitle>Gen-AI</PageTitle>
+
+<h1>Gen-AI</h1>
+
+<p>This component demonstrates showing data loaded from a gen-AI API service.</p>
+
+<FluentCardHeader>Gen-AI</FluentCardHeader>
+<FluentCardContent>
+    <FluentTextField Name="prompt" @bind-Value="prompt" Label="Prompt" Required />
+    <FluentButton @onclick="GetPromptResponse">Get Prompt Response</FluentButton>
+</FluentCardContent>
+
+@if (promptResponse == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div>
+        <h3>Prompt Response</h3>
+        @promptResponse
+    </div>
+}
+
+@code {
+    string? prompt;
+    private String promptResponse = string.Empty;
+
+    protected async Task GetPromptResponse()
+    {
+        var res = await GenAIApi.GetPromptResultAsync(prompt);
+        Console.WriteLine(res);
+        //promptResponse = Markdown.ToHtml(res);
+        promptResponse = res;
+        Console.WriteLine(promptResponse);
+    }
+}
