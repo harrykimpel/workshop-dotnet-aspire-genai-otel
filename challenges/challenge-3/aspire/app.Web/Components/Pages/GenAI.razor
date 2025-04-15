@@ -10,15 +10,14 @@
 
 <p>This component demonstrates showing data loaded from a gen-AI API service.</p>
 
-<FluentCardHeader>Gen-AI</FluentCardHeader>
-<FluentCardContent>
-    <FluentTextField Name="prompt" @bind-Value="prompt" Label="Prompt" Required />
-    <FluentButton @onclick="GetPromptResponse">Get Prompt Response</FluentButton>
-</FluentCardContent>
+<h3>Prompt</h3>
+<FluentTextArea Name="prompt" @bind-Value="prompt" Required style="width: 700px;" />
+<FluentButton @onclick="GetPromptResponse">Get Prompt Response</FluentButton>
+<br /><br />
 
-@if (promptResponse == null)
+@if (promptResponse == null || promptResponse == string.Empty)
 {
-    <p><em>Loading...</em></p>
+    <p><em>Waiting...</em></p>
 }
 else
 {

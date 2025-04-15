@@ -67,4 +67,8 @@ In the output of the first terminal panel, we should again see a link to our .NE
 
 ![.NET Aspire dashboard link](../challenge-1/assets/dotnet-run-aspire-dashboard-link.png)
 
-Click on the link and then also navigate to the `webfrontend` service.
+Click on the dashboard link and navigate to the `webfrontend` service.
+
+Here, you'll notice a new navigation item called `Gen-AI`.
+
+![web-frontend gen-ai](./assets/web-frontend-gen-ai.png)
