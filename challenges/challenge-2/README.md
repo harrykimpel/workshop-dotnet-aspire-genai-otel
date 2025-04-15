@@ -87,6 +87,12 @@ What is it that we actually configured above? Basically, we passed in some addit
 
 ## Run the application
 
+Before we are able to execute our application, we have to define the [New Relic license key](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/#license-key) as an environment variable (you can [get/create a license key here](https://one.newrelic.com/launcher/api-keys-ui.api-keys-launcher)):
+
+```bash
+export NEW_RELIC_LICENSE_KEY=YOUR_NEW_RELIC_LICENSE_KEY
+```
+
 Let's run the application again and see what result we can achieve.
 
 ```bash
