@@ -23,7 +23,7 @@ else
 {
     <div>
         <h3>Prompt Response</h3>
-        @promptResponse
+        @((MarkupString)promptResponse)
     </div>
 }
 
@@ -36,7 +36,6 @@ else
         var res = await GenAIApi.GetPromptResultAsync(prompt);
         Console.WriteLine(res);
         //promptResponse = Markdown.ToHtml(res);
-        promptResponse = res;
         Console.WriteLine(promptResponse);
     }
 }

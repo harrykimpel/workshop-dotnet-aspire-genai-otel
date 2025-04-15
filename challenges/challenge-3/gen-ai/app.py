@@ -35,7 +35,9 @@ def chatCompletion(prompt):
         messages=[
             {"role": "user", "content": prompt}
         ])
-    return completion.choices[0].message.content
+    content = completion.choices[0].message.content
+    content = content.replace("\n", "</p><br />")
+    return content
 
 @app.route("/")
 def home():

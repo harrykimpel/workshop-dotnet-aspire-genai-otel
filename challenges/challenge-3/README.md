@@ -79,4 +79,6 @@ Here, you'll notice a new navigation item called `Gen-AI`.
 
 ![web-frontend gen-ai](./assets/web-frontend-gen-ai.png)
 
-Here, you are able to enter some prompts and receive responses from the AI/LLM model visualized in the user interface.
+Here, you are able to enter some prompts and receive responses from the AI/LLM model being visualized in the web frontend.
+
+## Observability of our .NET Aspire and generative  AI application
