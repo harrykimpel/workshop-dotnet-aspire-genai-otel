@@ -81,4 +81,4 @@ Here, you'll notice a new navigation item called `Gen-AI`.
 
 Here, you are able to enter some prompts and receive responses from the AI/LLM model being visualized in the web frontend.
 
-## Observability of our .NET Aspire and generative  AI application
+## Observability of our .NET Aspire and generative AI application
