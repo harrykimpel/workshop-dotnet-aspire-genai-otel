@@ -6,7 +6,7 @@ Follow the steps below:
 
 1. Open the `Terminal` tab in the bottom panel
 
-2. Change folder into `challenge-1` folder
+2. Navigate into `challenge-2` folder
 
     ```bash
     cd ../challenge-2
@@ -103,6 +103,8 @@ Looking at the environment variables:
 
 ![.NET Aspire dashboard resource details variables](./assets/dotnet-aspire-dashboard-resource-details-variables.png)
 
+## Observing our application in New Relic
+
 All telemetry signals - logs, metrics and traces - are now exported into New Relic. Let's explore ...
 
 The overview page across all our services shows some high-level performance metrics.
@@ -128,3 +130,7 @@ OpenTelemetry automatically links logs to single traces by adding the trace.id t
 Finally, also all metrics for any given service can easily be analyzed:
 
 ![New Relic service metrics](./assets/new-relic-service-metrics.png)
+
+## Finally
+
+When you are finished exploring, let's head to the [next challenge](../challenge-3/README.md).
