@@ -32,7 +32,7 @@ This challenge is all about the model inventory of the New Relic AI monitoring c
 - **cost**: the cost (how many tokens are consumed) of running your application can greatly vary based on the model you use
 - **quality**: the quality of the responses from your LLM
 
-## Adjusting the AI/LLM model to `gpt-4.1-mini"`
+## Adjusting the AI/LLM model to `gpt-4.1-mini`
 
 In the second terminal of our GitHub codespace, execute the following command:
 
