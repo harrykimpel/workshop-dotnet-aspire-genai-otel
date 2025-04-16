@@ -49,7 +49,6 @@ After you ran the command, you can copy the entire dashboard JSON representation
 Once you imported the dashboard, you can then look at a similar result as shown below. The dashboard takes the actual tokens used throughout your interaction with the chat service and multiplies it with the data from the AI cost lookup table.
 
 ![New Relic dashboard ai model cost](./assets/new-relic-dashboard-ai-model-cost.png)
-![alt text](image.png)
 
 ## Finally
 

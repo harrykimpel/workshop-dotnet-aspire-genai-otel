@@ -37,7 +37,7 @@ This challenge is all about the model inventory of the New Relic AI monitoring c
 In the second terminal of our GitHub codespace, execute the following command:
 
 ```bash
-export MODEL="gpt-4.1-mini""
+export MODEL="gpt-4.1-mini"
 ```
 
 ## Run the application
@@ -66,15 +66,15 @@ I encourage you to use the same or similar prompts in this challenge as you did 
 
 Below please find some sample prompts that you could use:
 
-- "Tell me more about .NET Aspire"
-- "What are the unique selling points of Microsoft Azure?"
-- "What are the different options/regions Microsoft Azure offers in Germany?"
-- "When did Microsoft Azure first launch?"
-- "What was the original name of Microsoft Azure?"
-- "Why should developers attend Microsoft Build conference?"
-- "What do you know about New Relic?"
-- "Who invented New Relic?"
-- "Where does the name 'New Relic' come from?"
+- Tell me more about .NET Aspire
+- What are the unique selling points of Microsoft Azure?
+- What are the different options/regions Microsoft Azure offers in Germany?
+- When did Microsoft Azure first launch?
+- What was the original name of Microsoft Azure?
+- Why should developers attend Microsoft Build conference?
+- What do you know about New Relic?
+- Who invented New Relic?
+- Where does the name 'New Relic' come from?
 
 Once you are happy with your prompts and received some responses, let's continue with the next section.
 
@@ -102,15 +102,15 @@ I encourage you to use the same or similar prompts in this challenge as you did 
 
 Below please find some sample prompts that you could use:
 
-- "Tell me more about .NET Aspire"
-- "What are the unique selling points of Microsoft Azure?"
-- "What are the different options/regions Microsoft Azure offers in Germany?"
-- "When did Microsoft Azure first launch?"
-- "What was the original name of Microsoft Azure?"
-- "Why should developers attend Microsoft Build conference?"
-- "What do you know about New Relic?"
-- "Who invented New Relic?"
-- "Where does the name 'New Relic' come from?"
+- Tell me more about .NET Aspire
+- What are the unique selling points of Microsoft Azure?
+- What are the different options/regions Microsoft Azure offers in Germany?
+- When did Microsoft Azure first launch?
+- What was the original name of Microsoft Azure?
+- Why should developers attend Microsoft Build conference?
+- What do you know about New Relic?
+- Who invented New Relic?
+- Where does the name 'New Relic' come from?
 
 Once you are happy with your prompts and received some responses, let's continue with the next section.
 

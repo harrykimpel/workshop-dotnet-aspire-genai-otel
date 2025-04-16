@@ -93,15 +93,15 @@ Here, you are able to enter some prompts and receive responses from the AI/LLM m
 
 Below please find some sample prompts that you could use:
 
-- "Tell me more about .NET Aspire"
-- "What are the unique selling points of Microsoft Azure?"
-- "What are the different options/regions Microsoft Azure offers in Germany?"
-- "When did Microsoft Azure first launch?"
-- "What was the original name of Microsoft Azure?"
-- "Why should developers attend Microsoft Build conference?"
-- "What do you know about New Relic?"
-- "Who invented New Relic?"
-- "Where does the name 'New Relic' come from?"
+- Tell me more about .NET Aspire
+- What are the unique selling points of Microsoft Azure?
+- What are the different options/regions Microsoft Azure offers in Germany?
+- When did Microsoft Azure first launch?
+- What was the original name of Microsoft Azure?
+- Why should developers attend Microsoft Build conference?
+- What do you know about New Relic?
+- Who invented New Relic?
+- Where does the name 'New Relic' come from?
 
 ## Observability of our .NET Aspire and generative AI application
 
