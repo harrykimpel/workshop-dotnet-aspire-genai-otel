@@ -139,3 +139,7 @@ The `Performance` tab allows you to analyze the response times broken down by mo
 Finally, the `Cost` tab provides further details about token consumption by model, per prompt and by completion.
 
 ![New Relic gen-ai backend AI monitoring inventory cost](./assets/new-relic-gen-ai-backend-ai-monitoring-inventory-cost.png)
+
+## Finally
+
+When you are finished exploring, let's head to the [next challenge](../challenge-5/README.md).
