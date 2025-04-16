@@ -52,4 +52,4 @@ Once you imported the dashboard, you can then look at a similar result as shown 
 
 ## Finally
 
-After completing this last section, you successfully finished the workshop. Congratulations!
+When you are finished exploring, let's head to the [next challenge](../challenge-6/README.md).

@@ -62,7 +62,16 @@ Back in the .NET Aspire developer dashboard, we can then explore other areas of 
 
 ![.NET Aspire dashboard metrics](./assets/dotnet-aspire-dashboard-metrics.png)
 
-## OpenTelemetry
+## OpenTelemetry as an open standard
+
+**OpenTelemetry** is:
+
+- An [Observability](https://opentelemetry.io/docs/concepts/observability-primer/#what-is-observability) framework and toolkit designed to create and manage telemetry data such as [traces](https://opentelemetry.io/docs/concepts/signals/traces/), [metrics](https://opentelemetry.io/docs/concepts/signals/metrics/), and [logs](https://opentelemetry.io/docs/concepts/signals/logs/).
+- Vendor- and tool-agnostic, meaning that it can be used with a broad variety of Observability backends, including open source tools like Jaeger and Prometheus, as well as commercial offerings.
+- Not an observability backend like Jaeger, Prometheus, or other commercial vendors.
+- Focused on the generation, collection, management, and export of telemetry. A major goal of OpenTelemetry is that you can easily instrument your applications or systems, no matter their language, infrastructure, or runtime environment. The storage and visualization of telemetry is intentionally left to other tools.
+
+## OpenTelemetry in .NET Aspire
 
 All of these telemetry signals are captured by default using the default configuration of OpenTelemetry in .NET Aspire.
 
