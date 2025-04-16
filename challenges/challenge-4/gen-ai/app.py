@@ -30,8 +30,6 @@ def chatCompletion(prompt):
         
     completion = client.chat.completions.create(
         model=model_name,
-        temperature=0.8,
-        max_tokens=256,
         messages=[
             {"role": "user", "content": prompt}
         ])

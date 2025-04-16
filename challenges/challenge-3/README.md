@@ -56,10 +56,18 @@ In the second terminal window, execute the below commands:
 export NEW_RELIC_LICENSE_KEY=YOUR_NEW_RELIC_LICENSE_KEY
 ```
 
+You can re-use the same New Relic license key as before. This way, the same New Relic account will contain both the .NET Aspire app as well as the Python AI/LLM backend application.
+
 We also need to define our `GITHUB_TOKEN` (PAT) in order to make requests to the `https://models.inference.ai.azure.com` service. Create your PAT token by following instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
 ```bash
 export GITHUB_TOKEN=YOUR_GITHUB_TOKEN
+```
+
+Finally, we also need to define the AI/LLM model to use. We will leverage `=gpt-4o-mini` for this. Execute the below command in the second terminal.
+
+```bash
+export MODEL="gpt-4o-mini"
 ```
 
 Let's execute the application.
@@ -82,6 +90,18 @@ Here, you'll notice a new navigation item called `Gen-AI`.
 ![web-frontend gen-ai](./assets/web-frontend-gen-ai.png)
 
 Here, you are able to enter some prompts and receive responses from the AI/LLM model being visualized in the web frontend.
+
+Below please find some sample prompts that you could use:
+
+- "Tell me more about .NET Aspire"
+- "What are the unique selling points of Microsoft Azure?"
+- "What are the different options/regions Microsoft Azure offers in Germany?"
+- "When did Microsoft Azure first launch?"
+- "What was the original name of Microsoft Azure?"
+- "Why should developers attend Microsoft Build conference?"
+- "What do you know about New Relic?"
+- "Who invented New Relic?"
+- "Where does the name 'New Relic' come from?"
 
 ## Observability of our .NET Aspire and generative AI application
 
