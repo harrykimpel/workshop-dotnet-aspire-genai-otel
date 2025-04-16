@@ -6,13 +6,15 @@ Follow the steps below:
 
 1. Open the `Terminal` tab in the bottom panel
 
-2. Navigate into `challenge-2` folder
+2. Stop the running application by hitting CTRL-C in the terminal
+
+3. Navigate into `challenge-2` folder
 
     ```bash
     cd ../challenge-2
     ```
 
-3. In the `Explorer` on the lft side, open [challenges/challenge-2/app.AppHost/Program.cs](app.AppHost/Program.cs)
+4. In the `Explorer` on the lft side, open [challenges/challenge-2/app.AppHost/Program.cs](app.AppHost/Program.cs)
 
 ## .NET Aspire orchestration overview
 

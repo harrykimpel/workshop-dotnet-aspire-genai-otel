@@ -6,17 +6,19 @@ Follow the steps below:
 
 1. Open the `Terminal` tab in the bottom panel
 
-2. Navigate into `challenge-3` folder and specifically into the `aspire` folder
+2. Stop the running application by hitting CTRL-C in the terminal
+
+3. Navigate into `challenge-3` folder and specifically into the `aspire` folder
 
     ```bash
     cd ../challenge-3/aspire
     ```
 
-3. In the bottom panel, click on the `+` sign and create another `bash` terminal window.
+4. In the bottom panel, click on the `+` sign and create another `bash` terminal window.
 
     ![GitHub Codespace new terminal](./assets/gh-codespace-new-terminal.png)
 
-4. In the second terminal, navigate into `gen-ai` folder within `challenge-3`
+5. In the second terminal, navigate into `gen-ai` folder within `challenge-3`
 
     ```bash
     cd ../challenge-3/gen-ai
@@ -104,3 +106,46 @@ This brings us into the `Summary` screen of the `gen-ai-backend` service.
 From here we can easily analyze and investigate all the performance metrics of this specific service.
 
 ## New Relic AI Monitoring
+
+However, for this workshop, we are specifically interested in the `AI Monitoring` section.
+
+![New Relic gen-ai backend AI monitoring](./assets/new-relic-gen-ai-backend-ai-monitoring.png)
+
+### AI Responses
+
+One of the aspects of [New Relic AI Monitoring](https://newrelic.com/platform/ai-monitoring) is the `AI Responses` section:
+
+![New Relic gen-ai backend AI monitoring responses](./assets/new-relic-gen-ai-backend-ai-monitoring-responses.png)
+
+This page shows a summary of all the AI/LLM interactions in the selected time window. We highlight the following aspects:
+
+- **Total Responses**: the number of total responses in the selected time window.
+- **Response time**: the duration of requests to our AI/LLM (99th and 95thpercentile and average).
+- **Token usage per response**: how many tokens are consumed per response (99th and 95thpercentile and average).
+- **Errors**: error rate focusing specifically on the AI/LLM interactions.
+- **Responses**: this list view shows the actual requests and responses being sent to our AI/LLM interaction. It also highlights details about the total completions, the tokens and the actual model being used for the interaction.
+
+When clicking into any of the items in the `Responses` list view, we are able to investigate a single interaction even further.
+
+![New Relic gen-ai backend AI monitoring responses trace](./assets/new-relic-gen-ai-backend-ai-monitoring-responses-trace.png)
+
+From here we can analyze where the time is spent in a given interaction from our end users with the AI/LLM application we are monitoring.
+
+### Model Inventory
+
+Another aspect of New Relic AI monitoring is the `Model Inventory`.
+
+![New Relic gen-ai backend AI monitoring inventory](./assets/new-relic-gen-ai-backend-ai-monitoring-inventory.png)
+
+This section allows you to get an overview for this specific service about the various AI/LLM models being used including details about:
+
+- the total requests
+- average response time
+- average number of tokens per completion
+- error rate
+
+This section will become way more interesting once we configured and used other models in our application.
+
+## Finally
+
+When you are finished exploring, let's head to the [next challenge](../challenge-4/README.md).
