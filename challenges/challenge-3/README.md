@@ -82,3 +82,25 @@ Here, you'll notice a new navigation item called `Gen-AI`.
 Here, you are able to enter some prompts and receive responses from the AI/LLM model being visualized in the web frontend.
 
 ## Observability of our .NET Aspire and generative AI application
+
+Let's look into New Relic and checkout the `Distributed Tracing` section of the `webfrontend` service as part of our .NET Aspire app.
+
+![New Relic webfrontend distributed tracing](./assets/new-relic-webfrontend-distributed-tracing.png)
+
+Select any of the traces that with the name `Microsoft.AspNetCore.Components.Server.ComponentHub/BeginInvokeDotNetFromJS` that each have 3 entities involved.
+
+![New Relic webfrontend distributed tracing gen-ai trace](./assets/new-relic-webfrontend-distributed-tracing-trace.png)
+
+You will notice that we are able to capture the entire trace all the way from the `webfrontend` to the `genaiservice` to the `gen-ai-backend` and finally calling out to `odels.inference.ai.azure.com`. OpenTelemetry and our New Relic Python agent work in concert to make this entire trace visible end-to-end.
+
+Next, we click on the span `__main__:prompt` of the `gen-ai-backend`.
+
+![New Relic webfrontend distributed tracing gen-ai span](./assets/new-relic-webfrontend-distributed-tracing-span.png)
+
+This brings us into the `Summary` screen of the `gen-ai-backend` service.
+
+![New Relic gen-ai backend summary](./assets/new-relic-gen-ai-backend-summary.png)
+
+From here we can easily analyze and investigate all the performance metrics of this specific service.
+
+## New Relic AI Monitoring

@@ -36,6 +36,7 @@ else
         var res = await GenAIApi.GetPromptResultAsync(prompt);
         Console.WriteLine(res);
         //promptResponse = Markdown.ToHtml(res);
+        promptResponse = res;
         Console.WriteLine(promptResponse);
     }
 }

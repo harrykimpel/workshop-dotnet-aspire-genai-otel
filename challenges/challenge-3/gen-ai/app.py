@@ -43,6 +43,7 @@ def chatCompletion(prompt):
 def home():
     return render_template("index.html")
 
+@newrelic.agent.background_task()
 @app.route("/prompt", methods=["POST"])
 def prompt():
     input_prompt = request.json.get("prompt")
