@@ -5,7 +5,7 @@
     "features": {
         "ghcr.io/devcontainers/features/python:1": {}
     },
-    //"postCreateCommand": "dotnet restore",
+    "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
     //"onCreateCommand": "dotnet new install Aspire.ProjectTemplates::9.2.0 --force",
     "postStartCommand": "dotnet dev-certs https --trust",
     "customizations": {
