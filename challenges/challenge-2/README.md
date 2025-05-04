@@ -14,7 +14,7 @@ Follow the steps below:
     cd ../challenge-2
     ```
 
-4. In the `Explorer` on the lft side, open [challenges/challenge-2/app.AppHost/Program.cs](app.AppHost/Program.cs)
+4. In the `Explorer` on the left side, open [challenges/challenge-2/app.AppHost/Program.cs](app.AppHost/Program.cs)
 
 ## .NET Aspire orchestration overview
 
