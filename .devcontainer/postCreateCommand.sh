@@ -1,4 +1,6 @@
-cd ../challenges/challenge-1
+dotnet dev-certs https --trust
+
+cd challenges/challenge-1
 dotnet restore
 cd ../challenge-2
 dotnet restore
