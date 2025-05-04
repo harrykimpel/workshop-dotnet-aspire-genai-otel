@@ -8,7 +8,10 @@ A nice feature of the New Relic platform is the capability to add lookup tables 
 
 ![New Relic logs lookup tables](./assets/new-relic-logs-lookup-tables.png)
 
-This lookup table basically represents some static information that you then can use to reference for example in custom dashboards. For the next step, it is best to save this CSV locally on your machine.
+This lookup table basically represents some static information that you then can use to reference for example in custom dashboards.
+
+> [!NOTE]
+> For the next step, it is best to save this CSV locally on your machine.
 
 ## Upload the CSV as a New Relic Lookup table
 
