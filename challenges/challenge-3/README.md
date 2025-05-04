@@ -21,7 +21,7 @@ Follow the steps below:
 5. In the second terminal, navigate into `gen-ai` folder within `challenge-3`
 
     ```bash
-    cd ../challenge-3/gen-ai
+    cd challenges/challenge-3/gen-ai/
     ```
 
 ## Challenge background
@@ -73,6 +73,8 @@ export MODEL="gpt-4o-mini"
 Let's execute the application.
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app app.py run --host 0.0.0.0 --port 5004
 ```

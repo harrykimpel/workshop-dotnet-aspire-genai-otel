@@ -11,7 +11,7 @@ Follow the steps below:
 3. Navigate into `challenge-4` folder and specifically into the `aspire` folder
 
     ```bash
-    cd ../challenge-4/aspire
+    cd ../../challenge-4/aspire
     ```
 
 4. Open the second `Terminal` tab in the bottom panel
@@ -21,7 +21,7 @@ Follow the steps below:
 6. In the second terminal, navigate into `gen-ai` folder within `challenge-4`
 
     ```bash
-    cd ../challenge-4/gen-ai
+    cd ../../challenge-4/gen-ai
     ```
 
 ## Challenge background
@@ -44,7 +44,7 @@ export MODEL="gpt-4.1-mini"
 
 ### .NET Aspire application
 
-Let's execute the application.
+In the first terminal, let's execute the application.
 
 ```bash
 dotnet run --project app.AppHost/app.AppHost.csproj
@@ -52,7 +52,7 @@ dotnet run --project app.AppHost/app.AppHost.csproj
 
 ### Python generative AI application
 
-Let's execute the application.
+In the second terminal, let's execute the application.
 
 ```bash
 NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program flask --app app.py run --host 0.0.0.0 --port 5004

@@ -58,4 +58,4 @@ application = newrelic.agent.register_application(
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True, port=5004)
 
-newrelic.agent.shutdown_agent(timeout=2.5)  # shutdown New Relic agent
+#newrelic.agent.shutdown_agent(timeout=2.5)  # shutdown New Relic agent
