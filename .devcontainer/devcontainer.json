@@ -3,7 +3,7 @@
     //"image": "mcr.microsoft.com/dotnet/sdk:9.0",
     "image": "mcr.microsoft.com/devcontainers/dotnet:9.0-bookworm",
     "features": {
-        "ghcr.io/devcontainers/features/python:3": {}
+        "ghcr.io/devcontainers/features/python:1": {}
     },
     //"postCreateCommand": "dotnet restore",
     //"onCreateCommand": "dotnet new install Aspire.ProjectTemplates::9.2.0 --force",
