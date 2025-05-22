@@ -60,6 +60,9 @@ You can re-use the same New Relic license key as before. This way, the same New 
 
 We also need to define our `GITHUB_TOKEN` (PAT) in order to make requests to the `https://models.inference.ai.azure.com` service. Create your PAT token by following instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
+> **_NOTE:_** It is important to use a [fine-grained access token](https://github.com/settings/personal-access-tokens/new) and to configure access to GitHub Models in the **Account permissions** section at the bottom ![account permissions](https://github.com/user-attachments/assets/321b7113-3ae7-4aa3-a85c-67ab20e20ca2)
+.
+
 ```bash
 export GITHUB_TOKEN=YOUR_GITHUB_TOKEN
 ```
