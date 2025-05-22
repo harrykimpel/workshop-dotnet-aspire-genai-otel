@@ -34,6 +34,8 @@ This other service (to be executed in the second terminal window) is a Python ap
 
 Before we are able to execute our application, we have to define the [New Relic license key](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/#license-key) as an environment variable (you can [get/create a license key here](https://one.newrelic.com/launcher/api-keys-ui.api-keys-launcher)):
 
+> **_NOTE:_** Please create a **New Relic Ingest License Key** to use going forward! There are other keys that can be created for different purposes. However, for this purpose, we need to have a New Relic ingest license key!
+
 ### .NET Aspire application
 
 In the first terminal window, execute the below commands:
