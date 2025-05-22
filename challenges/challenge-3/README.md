@@ -56,6 +56,12 @@ In the second terminal window, execute the below commands:
 export NEW_RELIC_LICENSE_KEY=YOUR_NEW_RELIC_LICENSE_KEY
 ```
 
+> **_NOTE:_** If you are using EU region for the New Relic account, you also have to specify this environment variable in the second terminal
+
+```bash
+export NEW_RELIC_REGION=EU
+```
+
 You can re-use the same New Relic license key as before. This way, the same New Relic account will contain both the .NET Aspire app as well as the Python AI/LLM backend application.
 
 We also need to define our `GITHUB_TOKEN` (PAT) in order to make requests to the `https://models.inference.ai.azure.com` service. Create your PAT token by following instructions [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
